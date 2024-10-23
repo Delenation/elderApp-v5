@@ -1,2 +1,67 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+:root {
+	--ion-color-skyblue: #52b7f5;
+	--ion-color-skyblue-rgb: 82,183,245;
+	--ion-color-skyblue-contrast: #ffffff;
+	--ion-color-skyblue-contrast-rgb: 255,255,255;
+	--ion-color-skyblue-shade: #48a1d8;
+	--ion-color-skyblue-tint: #63bef6;
+
+  --ion-color-snow: #ffffff;
+	--ion-color-snow-rgb: 255,255,255;
+	--ion-color-snow-contrast: #000000;
+	--ion-color-snow-contrast-rgb: 0,0,0;
+	--ion-color-snow-shade: #e0e0e0;
+	--ion-color-snow-tint: #ffffff;
+
+  --swiper-theme-color: #52b7f5;
+}
+
+.ion-color-skyblue {
+	--ion-color-base: var(--ion-color-skyblue);
+	--ion-color-base-rgb: var(--ion-color-skyblue-rgb);
+	--ion-color-contrast: var(--ion-color-skyblue-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-skyblue-contrast-rgb);
+	--ion-color-shade: var(--ion-color-skyblue-shade);
+	--ion-color-tint: var(--ion-color-skyblue-tint);
+}
+
+.ion-color-snow {
+	--ion-color-base: var(--ion-color-snow);
+	--ion-color-base-rgb: var(--ion-color-snow-rgb);
+	--ion-color-contrast: var(--ion-color-snow-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-snow-contrast-rgb);
+	--ion-color-shade: var(--ion-color-snow-shade);
+	--ion-color-tint: var(--ion-color-snow-tint);
+}
+
+.round-border {
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.image-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@font-face {
+  font-family: 'Source Han Sans HW SC';
+  src: url('@/assets/fonts/SimplifiedChineseHW/SourceHanSansHWSC-Regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Han Sans HW SC';
+  src: url('@/assets/fonts/SimplifiedChineseHW/SourceHanSansHWSC-Bold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+* {
+  font-family: 'Source Han Sans HW SC', sans-serif;
+}

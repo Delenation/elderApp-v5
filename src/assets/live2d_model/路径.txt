@@ -1,0 +1,9 @@
+
+http://static.hdslb.com/live-static/live-room/live-room.haruna.min.js?_=1481935189565
+http://static.hdslb.com/live-static//live-room/images/live-haruna/pic.minimize.png?6c5f5a
+http://static.hdslb.com/live-static/live-room/images/live-haruna/pic.thumb-22.png
+http://s1.hdslb.com/bfs/static/blive/live-assets/haruna/22/22.1024/closet.default/texture_00.png
+http://static.hdslb.com/live-static/libs/live2d/live2d.min.js
+http://static.hdslb.com/live-static/swf/LivePlayerEx_1.swf
+http://s1.hdslb.com/bfs/static/blive/live-assets/haruna/22/22.moc
+http://s1.hdslb.com/bfs/static/blive/live-assets/haruna/22/motions/22-idle-01.mtn
